@@ -41,8 +41,7 @@ function App() {
     <div className="col-sm-3">
       <Menu/>
     </div>
-    
-    <div className="col-sm-9">
+        <div className="col-sm-9">
       <BrowserRouter>
       <Route path="/profile" component={Profile}/>
       <Route path="/messages" component={Messages}/>
